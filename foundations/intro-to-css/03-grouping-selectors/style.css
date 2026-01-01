@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+
+/* - **The first element**: a black background and white text */
+.button-1{
+  background-color: rgba(0, 0, 0, 0.878);
+  color: white;
+}
+
+/* - **The second element**: a yellow background */
+.button-2{
+  background-color: rgba(255, 255, 0, 0.899);
+}
+
+
+/* - **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback */
+.button-1,
+.button-2{
+  font-size: 28px;
+  font-family: "Helvetica", "Times New Roman", "sans-serif";
+}
